@@ -2,7 +2,9 @@
   "name": "@ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
@@ -25,6 +27,9 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
