@@ -1,5 +1,4 @@
-![Rocketseat](_documentation/capa.jpg)
-
+![Rocketseat](.documentation/capa.jpg)
 
 This repository contains the 5th project: Design System from the reactjs course by rocketseat. In this module we develop a design system, using storybook and a bunch of other technologies.
 
